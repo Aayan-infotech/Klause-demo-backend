@@ -45,7 +45,7 @@ It supports **role-based access control** for **Admin, Owner, Manager, and Guest
 ---
 
 ## 📂 Project Structure
-
+```bash
 src/
 ├── config/ # DB, Redis, env configuration
 ├── constants/ # Field mappings & static values
@@ -59,7 +59,7 @@ src/
 ├── validators/ # Request validation schemas
 ├── seed/ # Seed scripts
 └── index.js # App entry point
-
+```
 ---
 
 ## ⚙️ Installation Guide
