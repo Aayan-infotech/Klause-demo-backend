@@ -7,8 +7,8 @@ import {
 dotenv.config();
 
 const ENV = process.env.NODE_ENV || "production";
-const REGION = process.env.AWS_REGION || "us-east-1";
-const SECRET_NAME = process.env.SECRET_NAME || "klause-secret";
+const REGION = process.env.AWS_REGION || "ap-south-1";
+const SECRET_NAME = process.env.SECRET_NAME || "secret-aws";
 const secretsManager = new SecretsManagerClient({ region: REGION });
 
 const loadConfig = async () => {
@@ -99,7 +99,7 @@ const loadConfig = async () => {
     REFRESH_TOKEN_SECRET_ADMIN: process.env.REFRESH_TOKEN_SECRET_ADMIN,
 
     // AWS configuration
-    AWS_REGION: process.env.AWS_REGION || "us-east-1",
+    AWS_REGION: process.env.AWS_REGION || "ap-south-1",
     AWS_BUCKET_NAME: process.env.AWS_BUCKET_NAME,
     AWS_ACCESS_KEY_ID: process.env.AWS_ACCESS_KEY_ID,
     AWS_SECRET_ACCESS_KEY: process.env.AWS_SECRET_ACCESS_KEY,
