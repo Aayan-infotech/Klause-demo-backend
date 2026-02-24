@@ -13,14 +13,6 @@ Built with **Node.js | Express | MongoDB | Redis | AWS S3**
 
 ---
 
-## 👨‍💻 About the Developer
-
-Hi, my name is **Ankul Yadav**.  
-I am a **Backend Developer** focused on building scalable, production-ready systems using modern JavaScript technologies and cloud services.
-
-This project represents a modular, enterprise-ready backend architecture for multi-restaurant menu management with role-based collaboration.
-
----
 
 # 📌 Project Description
 
