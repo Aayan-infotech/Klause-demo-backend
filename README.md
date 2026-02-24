@@ -1,66 +1,114 @@
+<div align="center">
+
 # 🍽️ Klause Backend
 
-Klause is a scalable restaurant menu management backend built with **Node.js, Express, MongoDB, Redis, and AWS S3**.  
-It supports **role-based access control** for **Admin, Owner, Manager, and Guest** users.
+### Enterprise-Grade Restaurant Menu Management API  
+Built with **Node.js | Express | MongoDB | Redis | AWS S3**
 
 ---
 
-## 📌 Features
+🚀 Scalable • 🔐 Secure • 🌍 Multilingual • ☁️ Cloud Ready
 
-- 🏪 Restaurant creation & management
-- 👥 Owner → Manager invitation workflow
-- 📋 Advanced menu management (dishes, variants, extras)
-- 🧾 Ingredients, allergens, additives tracking
-- ⏰ Restaurant timing & availability logic
-- 🌍 Multilingual API responses (i18n)
-- ☁️ AWS S3 image upload with MIME validation
-- ⚡ Redis-ready caching layer
-- 🔐 JWT authentication + RBAC
-- 🧱 Modular scalable architecture
-- 🐳 Docker & Jenkins CI/CD ready
+</div>
 
 ---
 
-## 🧑‍💼 User Roles
+## 👨‍💻 About the Developer
 
-| Role    | Permissions                                           |
-| ------- | ----------------------------------------------------- |
-| Admin   | Platform control, restaurant approval, tag management |
-| Owner   | Create restaurant, invite managers, full menu control |
-| Manager | Manage menu, dishes, variants, timings                |
-| Guest   | Browse restaurants, view menu, rate, order            |
+Hi, my name is **Ankul Yadav**.  
+I am a **Backend Developer** focused on building scalable, production-ready systems using modern JavaScript technologies and cloud services.
+
+This project represents a modular, enterprise-ready backend architecture for multi-restaurant menu management with role-based collaboration.
 
 ---
 
-## 🏗️ Tech Stack
+# 📌 Project Description
 
-- Node.js + Express
-- MongoDB + Mongoose
-- Redis
-- AWS S3
-- JWT Authentication
-- i18n (multi-language)
-- Docker
+Klause Backend is a scalable and secure API system designed to manage restaurant operations digitally.  
+It enables **Owners** to create and manage restaurants, **Managers** to handle day-to-day menu operations through invitation-based access, and **Guests** to browse restaurants, view menus, rate, and place orders.
+
+The platform is built with a modular architecture, multilingual support, AWS S3 integration, and Redis-ready caching for high performance and scalability.
 
 ---
 
-## 📂 Project Structure
-```bash
-src/
-├── config/ # DB, Redis, env configuration
-├── constants/ # Field mappings & static values
-├── controllers/ # Admin & User business logic
-├── i18n/ # Multilingual JSON files
-├── middlewares/ # Auth, validation, upload, error handling
-├── models/ # Mongoose schemas
-├── routes/ # API routes
-├── services/ # Business services
-├── utils/ # Helpers & response handlers
-├── validators/ # Request validation schemas
-├── seed/ # Seed scripts
-└── index.js # App entry point
-```
+# ✨ Core Features
+
+- 🔐 JWT Authentication (Admin & User)
+- 👥 Role-Based Access Control (Admin, Owner, Manager, Guest)
+- 🏪 Restaurant Creation & Management
+- 📋 Advanced Menu Management (Dishes, Variants, Extras)
+- 🧾 Ingredients, Allergens & Additives Tracking
+- ⏰ Restaurant Timing & Availability Logic
+- 🌍 Multilingual API Responses (i18n)
+- ☁️ AWS S3 File Upload with MIME Validation
+- ⚡ Redis Integration (Performance Ready)
+- 📧 Email Service Integration
+- ⚙️ Environment-Based Configuration
+- 🐳 Docker Support
+- 🔄 CI/CD Ready (Jenkins)
+
 ---
+
+# 🏗 Architecture Highlights
+
+- Modular Express Architecture  
+- Clean Separation of Concerns  
+- Service Layer Abstraction  
+- Centralized Error Handling  
+- Request Validation Layer  
+- Standardized API Response Format  
+- Production-Ready Folder Structure  
+
+---
+
+# 🛠 Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+Framework | Express.js |
+Language | Node.js (ES Modules) |
+Database | MongoDB (Mongoose) |
+Caching | Redis (ioredis) |
+Authentication | JWT |
+Cloud Storage | AWS S3 |
+Validation | Joi |
+Email | Nodemailer |
+DevOps | Docker + Jenkins |
+Architecture | Modular & Scalable |
+
+---
+
+# 📦 Main Dependencies
+
+| Package | Purpose |
+|----------|----------|
+express | Web framework |
+mongoose | MongoDB ORM |
+jsonwebtoken | JWT authentication |
+bcrypt | Password hashing |
+joi | Request validation |
+ioredis | Redis client |
+multer + multer-s3 | File upload to AWS S3 |
+@aws-sdk/client-s3 | AWS S3 SDK |
+nodemailer | Email sending |
+dotenv | Environment configuration |
+cors | Cross-origin requests |
+cookie-parser | Cookie handling |
+uuid | Unique ID generation |
+
+---
+
+# 🧪 Available Scripts
+
+| Script | Purpose |
+|--------|----------|
+npm run dev | Start server with nodemon |
+npm start | Start production server |
+npm run seed | Seed default admin |
+
+---
+
+
 
 ## ⚙️ Installation Guide
 
